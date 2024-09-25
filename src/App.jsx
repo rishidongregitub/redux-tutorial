@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import Navbar from './components/Navbar'
 import './App.css';
+import Counter from './Features/Counter/Counter';
 
 function App() {
   return (
-    <Navbar/>
+    <>
+    <Counter/>
+    <h2>HEllo</h2>
+    </>
   );
 }
 
